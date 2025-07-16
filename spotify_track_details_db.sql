@@ -9,3 +9,5 @@ create table if not exists spotify_tracks (
     duration_minutes float,
     release_date date
 )
+select * from spotify_tracks;
+truncate table spotify_tracks;
